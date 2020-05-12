@@ -5,3 +5,4 @@ console.log(peso1, peso2)
 console.log(Number.isInteger(peso1))
 
 // toFixed(2) TIRAR CASA DECIMAL !!!
+
