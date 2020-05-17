@@ -18,3 +18,5 @@ console.log("O resultado = ",soma)
 console.log("O resultado = ",subtra)
 console.log("O resultado = ",multi)
 console.log("O resultado = ",divi)
+
+
