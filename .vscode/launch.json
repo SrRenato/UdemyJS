@@ -1,0 +1,87 @@
+{
+    "workbench.colorTheme": "Dracula",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.tokenColorCustomizations": {
+      "semanticHighlighting": false
+    },
+    // Configura tamanho e família da fonte
+    "editor.fontSize": 18,
+    "editor.lineHeight": 24,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "explorer.compactFolders": false,
+    // Aplica linhas verticais para lembrar de quebrar linha em códigos muito grandes
+    "editor.rulers": [80, 120],
+    "editor.formatOnSave": true,
+    "eslint.packageManager": "yarn",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+      }
+    },
+    "[python]": {
+      "python.formatting.provider": "autopep8"
+    },
+    "[javascriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+      }
+    },
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+      }
+    },
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+      }
+    },
+    "files.associations": {
+      ".sequelizerc": "javascript",
+      ".stylelintrc": "json",
+      ".prettierrc": "json"
+    },
+    // Aplica um sinal visual na esquerda da linha selecionada
+    "editor.renderLineHighlight": "gutter",
+    // Aumenta a fonte do terminal
+    "terminal.integrated.fontSize": 14,
+    // Define o tema dos ícones na sidebar
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.tabSize": 2,
+    "window.zoomLevel": 0,
+    "extensions.ignoreRecommendations": true,
+    "emmet.syntaxProfiles": {
+      "javascript": "jsx"
+    },
+    "emmet.includeLanguages": {
+      "javascript": "javascriptreact"
+    },
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "gitlens.codeLens.recentChange.enabled": false,
+    "gitlens.codeLens.authors.enabled": false,
+    "gitlens.codeLens.enabled": false,
+    "breadcrumbs.enabled": true,
+    "git.enableSmartCommit": true,
+    "editor.parameterHints.enabled": false,
+    "typescript.updateImportsOnFileMove.enabled": "never",
+    "explorer.confirmDragAndDrop": false,
+    "liveshare.featureSet": "insiders",
+    "explorer.confirmDelete": false,
+    "typescript.tsserver.log": "verbose",
+    "javascript.suggest.autoImports": false,
+    "typescript.suggest.autoImports": false,
+    "workbench.activityBar.visible": true,
+    "polacode.backgroundColor": "",
+    "polacode.transparentBackground": true,
+    "polacode.shadow": "rgba(0, 0, 0, 0.55) 0px 20px 68px#f2f2f2",
+    "prettier.packageManager": "yarn",
+    "material-icon-theme.folders.color": "#0099ff",
+    "material-icon-theme.folders.theme": "specific",
+    "python.pythonPath": "/bin/python3"
+  }

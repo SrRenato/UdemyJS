@@ -14,4 +14,6 @@ valores.push({id: 3}, false, null, 'test')
  console.log(valores)
 
  console.log(typeof valores)
+ 
 
+ 
