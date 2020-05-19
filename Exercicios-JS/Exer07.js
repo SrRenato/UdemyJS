@@ -7,9 +7,9 @@ function bhaskara(ax2, bx, c) {
     return "Delta e negativo"; // isso retorna uma mensagem quando o delta for NEGATIVO
   }
 
-  let x1 = -bx + (Math.sqrt(delta) / 2) * ax2;
+  let x1 = ((-bx + Math.sqrt(delta)) / 2) * ax2;
 
-  let x2 = -bx + (Math.sqrt(delta) / 2) * ax2; //Math.sqrt (raiz)
+  let x2 = ((-bx - Math.sqrt(delta)) / 2) * ax2; //Math.sqrt (raiz)
 
   resultados.push(x1);
   resultados.push(x2); // push isso puxa os o array []
