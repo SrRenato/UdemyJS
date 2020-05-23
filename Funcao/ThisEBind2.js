@@ -3,7 +3,7 @@ function pessoa() {
 
   const self = this;
   setInterval(
-    function () {
+    () => {
       self.idade++;
       console.log(self.idade);
     } /*.bind(this)*/,
