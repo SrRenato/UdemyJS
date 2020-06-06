@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  height: 100%;
+}
+body {
+  background: -webkit-linear-gradient(top, #7fc5c9, #deabbe);
+  text-align: center;
+}
+#score {
+  font-family: verdana;
+  font-size: 2em;
+  position: relative;
+  color: #fff;
+}
+#canvas {
+  display: block;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
